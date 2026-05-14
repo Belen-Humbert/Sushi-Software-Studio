@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
 
@@ -36,28 +37,51 @@
 <section id="hero" style="padding: 0; background: var(--bg);">
   <div class="hero">
     <div class="hero-content">
-      <p class="hero-eyebrow">Sushi Software Studio</p>
-      <h1 class="hero-title">
-        Hacemos real
-        <em>lo que imaginás.</em>
-      </h1>
-      <p class="hero-sub">Desarrollamos soluciones digitales completamente a medida — desde el primer píxel hasta el último endpoint. Sin templates genéricos. Sin intermediarios. Con vos en cada paso.</p>
-      <div class="hero-actions">
-        <a href="#proyectos" class="btn-primary">Ver proyectos</a>
-        <a href="#contacto" class="btn-outline">Hablemos del tuyo</a>
+      <!-- Izquierda -->
+      <div class="hero-left">
+        <p class="hero-eyebrow">Sushi Software Studio</p>
+        <h1 class="hero-title">
+          Hacemos real
+          <em>lo que imaginás.</em>
+        </h1>
+        <p class="hero-sub">Desarrollamos soluciones digitales completamente a medida — desde el primer píxel hasta el último endpoint. Sin templates genéricos. Sin intermediarios. Con vos en cada paso.</p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+          <a href="#contacto" class="btn-outline">Hablemos del tuyo</a>
+        </div>
+        <p class="hero-sincargo">✦ Primera consulta y presupuesto sin cargo</p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <p class="stat-num">7+</p>
+            <p class="stat-label">Proyectos entregados</p>
+          </div>
+          <div class="stat-item">
+            <p class="stat-num">100%</p>
+            <p class="stat-label">Hechos a medida</p>
+          </div>
+          <div class="stat-item">
+            <p class="stat-num">∞</p>
+            <p class="stat-label">Atención personalizada</p>
+          </div>
+        </div>
       </div>
-      <div class="hero-stats">
-        <div class="stat-item">
-          <p class="stat-num">7+</p>
-          <p class="stat-label">Proyectos entregados</p>
+      <!-- Derecha: tarjetas flotantes -->
+      <div class="hero-cards" aria-hidden="true">
+        <div class="hc hc1">
+          <div class="hc-icon" style="background:rgba(208,137,174,.13);">🌐</div>
+          <div><div class="hc-name">Desarrollo Web</div><div class="hc-desc">Apps a medida</div></div>
         </div>
-        <div class="stat-item">
-          <p class="stat-num">100%</p>
-          <p class="stat-label">Hechos a medida</p>
+        <div class="hc hc2">
+          <div class="hc-icon" style="background:rgba(212,172,224,.15);">📱</div>
+          <div><div class="hc-name">Apps Móviles</div><div class="hc-desc">iOS & Android</div></div>
         </div>
-        <div class="stat-item">
-          <p class="stat-num">∞</p>
-          <p class="stat-label">Atención personalizada</p>
+        <div class="hc hc3">
+          <div class="hc-icon" style="background:rgba(241,174,173,.15);">🤖</div>
+          <div><div class="hc-name">AI & Automatización</div><div class="hc-desc">Procesos inteligentes</div></div>
+        </div>
+        <div class="hc hc4">
+          <div class="hc-icon" style="background:rgba(202,189,165,.15);">⚙️</div>
+          <div><div class="hc-name">Consultoría</div><div class="hc-desc">Arquitectura técnica</div></div>
         </div>
       </div>
     </div>
@@ -269,7 +293,7 @@
     </div>
     <div class="contact-actions reveal reveal-delay-4">
       <a href="mailto:hola@sushisoftware.studio" class="btn-cosmos">Escribime</a>
-      <a href="#" class="btn-ghost">Ver LinkedIn</a>
+      <a href="https://www.linkedin.com/in/bel%C3%A9n-humbert/" class="btn-ghost" target="_blank" rel="noopener noreferrer">Ver LinkedIn</a>
     </div>
   </div>
 </section>
